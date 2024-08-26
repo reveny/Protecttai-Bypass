@@ -1,6 +1,11 @@
 # Protecttai-Bypass
 A xposed module to bypass protectt.ai in Kotak Neo
 
+---
+> [!CAUTION]
+**Disclaimer**: This project is for educational purposes only. The intention is to highlight the weaknesses of current security solutions and to encourage the development of better, more reliable alternatives. Use this information responsibly. Do NOT use this for malicious intent. I am not responsible for the actions by users of this module
+
+
 ## Overview
 
 This repository contains a simple demonstration of how to bypass the Protectt.ai security solution implemented in the Kotak Neo app. Protectt.ai is designed to protect Android applications from various security threats, but it has significant flaws that make it unreliable and easy to bypass.
@@ -26,7 +31,3 @@ Feel free to reach out via:
 - Telegram Group: [Join Group](https://t.me/reveny1)
 - Telegram Contact: [Contact](https://t.me/revenyy)
 - Website: [Website](https://reveny.me/contact)
-
----
-
-**Disclaimer**: This project is for educational purposes only. The intention is to highlight the weaknesses of current security solutions and to encourage the development of better, more reliable alternatives. Use this information responsibly. Do NOT use this for malicious intent. I am not responsible for the actions by users of this module
