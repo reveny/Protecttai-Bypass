@@ -24,7 +24,7 @@ The intention behind this project is not malicious; rather, it aims to inform de
 
 1. Download the bypass apk from releases or build it on your own.
 
-2. Run the Kotak Neo app with the hook applied, and observe how the Protectt.ai solution is bypassed effortlessly.
+2. Run the Kotak Neo app with the hook applied, and see how the Protectt.ai solution is bypassed effortlessly.
 
 ## Contact
 Feel free to reach out via:
