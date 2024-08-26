@@ -30,4 +30,4 @@ The intention behind this project is not malicious; rather, it aims to inform de
 Feel free to reach out via:
 - Telegram Group: [Join Group](https://t.me/reveny1)
 - Telegram Contact: [Contact](https://t.me/revenyy)
-- Website: [Website](https://reveny.me/contact)
+- Website: [Website](https://reveny.me/contact.html)
