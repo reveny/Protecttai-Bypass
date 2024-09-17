@@ -22,5 +22,15 @@ public class MainHook implements IXposedHookLoadPackage {
                 }
             });
         }
+        if (lpparam.packageName.equals("com.icicilombard.ipartnerpro")) {
+            XposedHelpers.findAndHookMethod("g.g", lpparam.classLoader, "u1", String.class, int.class, int.class, int.class, String.class, int.class, new XC_MethodHook() {
+                @Override
+                protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
+                    Log.d("Xposed", "Hooked AppProtecttInteractor");
+
+                    param.setResult(null);
+                }
+            });
+        }
     }
 }
