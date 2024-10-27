@@ -32,5 +32,15 @@ public class MainHook implements IXposedHookLoadPackage {
                 }
             });
         }
+        if (lpparam.packageName.equals("com.csam.icici.bank.imobile")) {
+            XposedHelpers.findAndHookMethod("ai.protectt.app.security.main.g", lpparam.classLoader, "C1", String.class, int.class, int.class, int.class, String.class, int.class, new XC_MethodHook() {
+                @Override
+                protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
+                    Log.d("Xposed", "Hooked AppProtecttInteractor");
+
+                    param.setResult(null);
+                }
+            });
+        }
     }
 }
